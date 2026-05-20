@@ -1,0 +1,155 @@
+ .van{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 60px;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+body{
+  background-color: #1B0801;
+}
+.piza{
+  width: 170px;
+}
+
+.p1{
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.btn{
+  padding: 12px 35px;
+  border: none;
+  border-radius: 30px;
+  background: orange;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.section{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px 60px;
+  gap: 40px;
+}
+
+.p3{
+  font-size: 75px;
+  font-weight: bold;
+  color: white;
+  line-height: 85px;
+}
+
+.p4{
+  color: white;
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.katta{
+  width: 500px;
+  max-width: 100%;
+}
+
+.img6{
+  width: 220px;
+  margin-right: 300px;
+  margin-top: 20px;
+}
+
+
+
+@media (max-width: 768px){
+
+  .van{
+    padding: 20px;
+    justify-content: center;
+  }
+
+  .piza{
+    width: 140px;
+  }
+
+  .p1{
+    font-size: 16px;
+  }
+
+  .section{
+    flex-direction: column-reverse;
+    text-align: center;
+    padding: 30px 20px;
+  }
+
+  .p3{
+    font-size: 55px;
+    line-height: 65px;
+  }
+
+  .p4{
+    font-size: 16px;
+  }
+
+  .katta{
+    width: 350px;
+  }
+
+  .img6{
+    width: 100px;
+  }
+
+}
+
+
+
+@media (max-width: 480px){
+
+  .van{
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 15px;
+  }
+
+  .piza{
+    width: 120px;
+  }
+
+  .p1{
+    display: none;
+  }
+
+  .btn{
+    padding: 10px 25px;
+    font-size: 14px;
+  }
+
+  .section{
+    padding: 20px 15px;
+    gap: 20px;
+  }
+
+  .p3{
+    font-size: 42px;
+    line-height: 48px;
+  }
+
+  .p4{
+    font-size: 14px;
+    line-height: 22px;
+  }
+
+  .katta{
+    width: 260px;
+  }
+
+  .img6{
+    width: 200px;
+    margin-left: 300px;
+  }
+
+}
