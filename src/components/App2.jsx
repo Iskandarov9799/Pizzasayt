@@ -1,17 +1,15 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from './assets/vite.svg'
-import heroImg from './assets/hero.png'
-import rasim1Img from './assets/Italian.png'
-import rasim2Img from './assets/Venecia.png'
-import rasim3Img from './assets/Meat.png'
-import rasim4Img from './assets/Cheese.png'
-import rasim5Img from './assets/most.png'
-import rasim6Img from './assets/Argentina.png'
-import rasim7Img from './assets/Gribnaya.png'
-import rasim8Img from './assets/Tomatto.png'
-import rasim9Img from './assets/Italian x2.png'
-import './App.css'
+
+import rasim1Img from '../assets/Italian.png'
+import rasim2Img from '../assets/Venecia.png'
+import rasim3Img from '../assets/Meat.png'
+import rasim4Img from '../assets/Cheese.png'
+import rasim5Img from '../assets/most.png'
+import rasim6Img from '../assets/Argentina.png'
+import rasim7Img from '../assets/Gribnaya.png'
+import rasim8Img from '../assets/Tomatto.png'
+import rasim9Img from '../assets/Italian x2.png'
+import './App2.css'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -91,7 +89,7 @@ function App() {
           </div>
           <div className="s2_div4">
             <a className='or' href="">Order Now</a>
-          </div> 
+          </div>
         </section>
          <section className='s5'>
           <div className="s2_div">
@@ -138,7 +136,7 @@ function App() {
           </div>
           <div className="s2_div4">
             <a className='or' href="">Order Now</a>
-          </div> 
+          </div>
         </section>
          <section className='s5'>
           <div className="s2_div">
@@ -182,7 +180,7 @@ function App() {
           </div>
           <div className="s2_div4">
             <a className='or' href="">Order Now</a>
-          </div> 
+          </div>
         </section>
          <section className='s5'>
           <div className="s2_div">

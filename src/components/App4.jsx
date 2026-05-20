@@ -1,4 +1,4 @@
-import './App.css'
+import './App4.css'
 import pizza from '/public/pitsa.png'
 import pizzaa from '/public/pitza.png'
 import pizza3 from '/public/pizzashop.png'
