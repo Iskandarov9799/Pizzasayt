@@ -1,0 +1,90 @@
+body {
+  background-color: #1a0a05;
+  color: white;
+  font-family: sans-serif;
+  padding: 40px;
+  margin: 0;
+}
+
+.cardlar {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  display: flex;
+  gap: 20px;
+  width: 100%;
+}
+
+
+.qismi {
+  background-color: #2b1610; 
+  border-radius: 20px;
+  padding: 30px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  width: 2500px;
+}
+
+.qismi h3 {
+  margin: 0;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.bosh {
+  max-width: 500px;
+}
+.orta {
+  max-width: 1000px;
+}
+.pastki {
+  max-width: 1000px;
+}
+
+.zakaz {
+  background: #ff9f1c;
+  border: none;
+  color: white;
+  padding: 10px 100px;
+  border-radius: 25px;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 20px;
+  }
+
+  .card {
+    flex-direction: column; 
+  }
+
+  .card:font-of-type { 
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .yozuv {
+    order: -1; 
+    margin-bottom: 20px;
+  }
+
+  .bosh, .orta, .pastki {
+    max-width: 100%; 
+    width: 100%;
+  }
+
+  .zakaz {
+    padding: 10px 0;
+    width: 100%; 
+    text-align: center;
+  }
+}
