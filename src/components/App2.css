@@ -1,0 +1,297 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  background-color: #1B0801;
+}
+
+
+.s1_h1{
+  color: white;
+  display: inline-block;
+  margin-left: 70px;
+}
+.section1{
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 30px;
+}
+
+/* menyuni teyi */
+
+
+.s1_a1{
+  color:white;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 20px;
+  background: linear-gradient(90deg, #F9B233 0%, #FF5A2A 100%);
+  border: 0px solid #F9B233;
+  padding: 10px 60px;
+  border-radius: 200px;
+}
+
+.img1{
+  margin-left: 90px;
+  width: 230px;
+  height: 230px;
+}
+
+.s1_a2{
+  color:white;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.s1_a3{
+  color:white;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.s1_a4{
+  color:white;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+.s1_a5{
+  color:white;
+  text-decoration: none;
+  margin-right: 70px;
+  margin-top: 20px;
+}
+
+/* orto */
+
+.s2{
+  margin-top: 90px;
+}
+
+
+.s2_h1{
+  color: white;
+  font-size: 30px;
+  margin-top: -10px;
+}
+
+.s2_p{
+  color: white;
+  font-size: 15px;
+  
+}
+.s2_a{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  border: 2px solid #F9B233;
+  padding: 8px;
+  border-radius: 70px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.s2_a2{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 20px;
+  display: inline-block;
+}
+.s2_a3{
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.s2_a4{
+  display: inline-block;
+  margin-top: 10px;
+  color: #F9B233;
+  text-decoration: none;
+  border: 1px solid #F9B233;
+  border-radius: 30px;
+  padding: 4px 8px;
+  width: 120px;
+  margin-top: 20px;
+}
+
+.h2{
+  color: white;
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.h3{
+  color: white;
+  display: inline-block;
+  margin-right: 20px;
+}
+.p2{
+  color: white;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 10px;
+  width: 5px;
+  border-radius: 10px;
+}
+.p3{
+  color: white;
+  display: inline-block;
+}
+
+.s2_div {
+  display: flex;
+  flex-direction: column;
+}
+
+.or{
+  color: white;
+  background: linear-gradient(90deg, #F9B233 0%, #FF5A2A 100%);
+  text-decoration: none;
+  border: 1px solid #F9B233;
+  margin-top: 20px;
+  padding: 10px 30px;
+  border-radius: 50px;
+}
+
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.img2{
+  width: 1000px;
+}
+
+.s2,
+.s3,
+.s4,
+.s5{
+  width: 200px;
+  display: inline-block;
+  border-radius: 20px;
+  padding: 20px;
+  margin-top: 120px;
+  text-align: center;
+}
+
+.s2_div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.img1{
+  width: 180px;
+  height: 180px;
+  margin-left: 0;
+  margin-top: -110px;
+}
+
+.s2_h1{
+  color: white;
+  margin-top: 15px;
+  font-size: 32px;
+}
+
+.s2_p{
+  color: white;
+  font-size: 13px;
+  margin-top: 10px;
+  line-height: 20px;
+}
+
+.s2_div2{
+  margin-top: 20px;
+}
+
+.s2_a,
+.s2_a2,
+.s2_a3{
+  margin: 0 10px;
+}
+
+.s2_a4{
+  display: inline-block;
+  margin-top: 20px;
+}
+
+.s2_div3{
+  margin-top: 20px;
+}
+
+.h2,
+.h3,
+.p2,
+.p3{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.or{
+  display: inline-block;
+  margin-top: 20px;
+  width: 100px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-width: 450px) {
+  .section1 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .section1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+
+  .s2{
+    width: 179px;
+    display: inline-block;
+    margin-right: 210px;
+  }
+
+  .s3{
+    width: 179px;
+    display: inline-block;
+    margin-left: 210px;
+    margin-top: -513px;
+  }
+
+  .s4{
+    width: 179px;
+    display: inline-block;
+    margin-right: 210px;
+  }
+
+  .s5{
+    width: 179px;
+    display: inline-block;
+    margin-left: 210px;
+    margin-top: -513px;
+  }
+  
+
+  .or{
+    width: 100px;
+    height: 25px;
+  }
+  .img2{
+    width: 425px;
+    height: 150px;
+  }  
+  
+}
