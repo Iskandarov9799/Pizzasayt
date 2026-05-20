@@ -2,7 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
-import pizza from '/public/pizzashop.png'
+import pizza1 from '/public/pizzashop1.png'
 import katta from '/public/katta.png'
 import proc from '/public/proc.png'
 import t from '/public/t.png'
@@ -15,7 +15,7 @@ function App() {
     <>
     <header>
       <nav className='van'>
-      <img className='piza' src={pizza} alt="" />
+      <img className='piza' src={pizza1} alt="" />
       <p className='p1'>Home</p>
       <p className='p1'>Menu</p>
       <p className='p1'>Events</p>
